@@ -42,7 +42,7 @@ public class HttpApplication extends AbstractVerticle {
       name = "World";
     }
 
-    name = name + " from openshif.io!"
+    name = name + " from openshif.io!";
     JsonObject response = new JsonObject()
         .put("content", String.format(template, name));
 
